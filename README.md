@@ -27,8 +27,7 @@ To run StrainSifter, you must have miniconda3 and Snakemake installed.
 
 4. Install Snakemake:
 
-   	conda install snakemake -c bioconda -c conda-forge
-
+        conda install snakemake -c bioconda -c conda-forge
 
   StrainSifter has been developed and tested with Snakemake version 5.1.4 or higher. Check your version by typing:
 
@@ -108,7 +107,7 @@ Example config.yaml:
     reads:
     sample1:
     [/path/to/sample1_R1.fq,
-    /path/tp/sample1_R2.fq]
+    /path/to/sample1_R2.fq]
     sample2:
     [/path/to/sample2_R1.fq,
     /path/to/sample2_R2.fq]
